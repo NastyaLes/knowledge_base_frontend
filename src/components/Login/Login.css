@@ -1,0 +1,43 @@
+.login-form {
+    font-size: 1.1rem;
+    width: 420px;
+    height: 420px;
+    padding: 20px;
+    border: 2px solid maroon;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*transform позволяет манипулировать элементами на веб-странице, изменяя форму, размер, положение
+    Свойство translate позволяет перемещать элемент по экрану. Функция принимает два параметра: 
+    первый параметр отвечает за смещение вправо-влево, а второй параметр — вверх-вниз.
+    */
+}
+
+.login-input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    border: 2px solid maroon;
+    border-radius: 6px;
+}
+
+.login-button {
+    width: 100%;
+    height: 40px;
+    background-color: maroon;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 6px;
+    display: flex;
+    align-content: center;
+    justify-content: center
+}
+
+.h1 {
+    text-align: center;
+}

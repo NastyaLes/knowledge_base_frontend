@@ -1,0 +1,45 @@
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25);
+    border: 1px solid black;
+    display: flex;
+    flex-flow: row wrap; /*Это свойство-шорткат для одновременного определения значений свойств flex-direction и flex-wrap*/
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: flex-start;
+    gap: 20px 20px;
+    background-color: #A93226;
+}
+.component {
+    border-radius: 6px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25);
+    background-color: #F9EBEA;
+    width: 29%;
+    height: auto;
+    padding: 10px;
+}
+
+.container-buttons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap; /*Это свойство-шорткат для одновременного определения значений свойств flex-direction и flex-wrap*/
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+}
+.main-buttons {
+    width: 47%;
+}
+img {
+    width: 100%;
+    height: 200px;
+}
+h4 {
+    text-align: center;
+}
+#button_edit_component, #button_add_component {
+    width: 100%;
+  }
